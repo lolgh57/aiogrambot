@@ -45,6 +45,7 @@ def get_available_sheets():
     gc = gspread.service_account(filename="./app/creds.json")
     spreadsheet = gc.open("Квесты")
     sheets = spreadsheet.worksheets()
+    print([sheet.title for sheet in sheets[1:]])
     return [sheet.title for sheet in sheets[1:]]
 
 

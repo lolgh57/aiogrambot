@@ -24,7 +24,9 @@ async def today_quests(callback: CallbackQuery):
         for quest in response:
             message += f" - <b>Квест</b>: {quest.quest}, <b>Дата</b>: {quest.payment_data}, <b>Время</b>: {quest.time}\n"
     else:
-        message += "Вы ещё не прошли ни одного квеста!"
+        message += "Квестов нет! Можно отдохнуть..."
+
+    await callback.message.answer(message, reply_markup=None, parse_mode='HTML')
 
 
 @admin_router.callback_query(F.data == 'tomorrow_quests')
@@ -38,6 +40,6 @@ async def tomorrow_quests(callback: CallbackQuery):
         for quest in response:
             message += f" - <b>Квест</b>: {quest.quest}, <b>Дата</b>: {quest.payment_data}, <b>Время</b>: {quest.time}\n"
     else:
-        message += "Вы ещё не прошли ни одного квеста!"
+        message += "Квестов нет! Можно отдохнуть..."
 
     await callback.message.answer(message, reply_markup=None, parse_mode='HTML')

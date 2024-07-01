@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "questcenter-1677278869250",
+  "private_key_id": "241c6b2f306c1ba2c16ce2a3b7d91a91b08e4e1b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDVGYcJBmBIA1Jf\nh+swmi17a2WMKJYbyWvERscbqNE3j2RF1kMKLkaKn0bAbJToZDlJL5s/7/4jgeKt\naJ32wn5kgIz6KgCeSL3F3CYAljRAeHpUme1/dDafiNaNOTwd6phrszAVKKWCbUj8\nEaDcWe/UqeV2WndgH8xkSVLZuuhCo/cif/4y0N5lj03zY1Cbofu8FU1g36HXYo63\nomfiaXTTVmI9qtAXBLF3LFC19Yx9IYF8DdVLUtaN3pe8wD3rMNyo8mI3NFS9KcOt\n/96GQOJUTh+bfws9hHyNbLWKy5o+v2QTM/fmlgdmZRofeXnpq4ogGdZ0YZA7kRlD\ntZFDTeHRAgMBAAECggEAAwcuFUl/KD7N1pgslh/2ufx8cKmp+mKaEqurzB+Ru3+g\n3eItyTD/pRweygCw+/1imADibJ3pJ1GC6lJkfjtkxuJRvoNGx3kCo1Ndwd/ghbMA\nj/+w8YDx/sHXxKF10noBKPSeoApYEbqiURyiA8eOYh/45/3gmN/SzHEDSZ8/iiTa\nLAqFIa+ZCw3lbTg5EUgn3r/sDvsWX5BBLHuLotLL00AD111wWTDpPSvz+gAEbpSY\nUJFUEUiHrGZOFNDc4H27FbSv+2o/ton/jYZnIQEygxpucQOqfIaVlTl1nVRtcpeM\nE0fWtzJ7lvVs9iB9nHwXorvI7Ph/gm5Rlmim/NqDbQKBgQDvrXvbsBWPPxmBB7pB\nah+2ew1keE2b69FfmC4B5DJzsRBXxHiKav4Ms+Su0KOgPgj0UYKANjBiF0Rxjwpd\nyEozD8Ml04xIg7cDmybr+5b9Ng1LUs9nZ9sA4O0Jf0Bs1+WHoIslR9w1LblXdX9R\n5waVnCTnG8Bz4McCqQMaD8hNpQKBgQDjnK+xeG25fpUBvPSCTmFybqcPfWNmKYWS\ntWu020CnXdVOnNs1NgXWkMhzYchJIrSEUx8NtykzrNT7msrImpcO6oxxn3PIG5BG\n1iz0oPpvlbZntq9daF6/1SwUA9W8e0ODkLdBiDLESUxS1Y/Xm+naYRD/6EkCzvtK\nSqKv92MjvQKBgHMlGFUBskngWaNYkA2vK08irNtwxHA9CZhwZuH3vJlCHoTb2cE+\nB5EYt6uYhpOMWgbuRdDMt8/YN8SKoMNPXv5K+0jn6gRIaxsrZbaHZxF870QZo5Sd\nG2S/qoEehlgEHLxcz5x4en192wX+Z810PQCRRFVXSs0g1tsbUWcq3+MVAoGAAvkQ\n8mh4Rmv41kT5jJope60mUXV5zuPL8tabyYjzlzwKhTRXSKKkAOFzPM6SJyJk6TWM\nukkiKKKhRYgIDga24mL94p4KjRqPD93MSIWxv7Nc5o3kTHwIgMjwAnLqX8PcZeOG\nAT0eLKIodQyFDHPk4g1Sg4UtLvQ1JAtFhLbefKECgYAAtq43EJxsnLa6RcxHbk4g\no9K3YbMi6obc0qRLVQlWt4OiNBf8nZ6hTEW1QhYdscxJc0FQxuH/m22iga+AOgle\ntdk0Jm6tAVTVDWri8I6ajFMQzTvwzrxu42/jkUwGvSSlnUzQtarAL6LDe/0rJG2F\nU8EK18PQOJvFd6snXkXr8A==\n-----END PRIVATE KEY-----\n",
+  "client_email": "questcentersheets@questcenter-1677278869250.iam.gserviceaccount.com",
+  "client_id": "110152096523305754496",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/questcentersheets%40questcenter-1677278869250.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

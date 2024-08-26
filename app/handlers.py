@@ -240,7 +240,7 @@ async def select_date(callback: CallbackQuery, state: FSMContext):
     await callback.message.answer(today_message, parse_mode='HTML')
     available_months = await get_available_months()
     available_months = [month.split(' ')[0] + ' ' + month.split(' ')[1] for month in available_months]
-    # print(available_months)
+    print(available_months)
     await callback.message.answer(f"Выберите дату бронирования для квеста \"{selected_quest}\":",
                                   reply_markup=await kb.calendar_kb(month, year, available_months))
 

@@ -107,7 +107,10 @@ def reservation_kb(quest_name: str) -> InlineKeyboardMarkup:
 
 async def calendar_kb(month: int, year: int, available_months: list) -> InlineKeyboardMarkup:
     today = datetime.date.today()
-    if month == today.month and year == today.year:
+    if month == 9 and year == 2024:
+        days_in_month = [str(i) for i in range(1, 11)]
+        first_day_of_month = datetime.date(year, month, 1).weekday()
+    elif month == today.month and year == today.year:
         first_day_of_month = datetime.date(year, month, today.day).weekday()
         days_in_month = [str(i) for i in range(1, calendar.monthrange(year, month)[1] + 1)
                          if i >= today.day and i != today.day]
@@ -130,6 +133,7 @@ async def calendar_kb(month: int, year: int, available_months: list) -> InlineKe
     for _ in range(first_day_of_month):
         days_in_month.insert(0, " ")
 
+    print(days_in_month)
     while days_in_month:
         row = []
         for _ in range(7):
